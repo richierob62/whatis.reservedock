@@ -17,6 +17,35 @@
       content="Allows you to create rules that determine what can be delivered when and where and then transferring the actual scheduling work to the carriers and vendors making the deliveries while maintaining complete control."
     />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- Global site tag (gtag.js) - Google Ads: 960559188 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-960559188"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-960559188');
+    </script>
+
+    <!-- Event snippet for Registrations conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-960559188/dRtaCMPpvJIBENTwg8oD',
+            'transaction_id': '',
+            'event_callback': callback
+        });
+        return false;
+      }
+      </script>
+
   </head>
   <body class="home">
     <div class="top_sec_wrapper">
@@ -356,7 +385,7 @@
           <div class="right">
             <div class="login"><a href="https://reservedock.com/login">Sign In</a></div>
 
-            <div class="try">
+            <div class="try" onclick="gtag_report_conversion()">
               <a href="https://reservedock.com/register_as_receiver">TRY IT FREE </a>
             </div>
           </div>
@@ -447,7 +476,7 @@
               <div class="feature_benefits">Savings, Flexibility</div>
               <div class="feature_heading">Unlimited Activity</div>
               <p class="feature_body">
-                You monthly fee covers all your activity.  There is no cap on how many receivals you can do, or how many
+                Your monthly fee covers all your activity.  There is no cap on how many receivals you can do, or how many
                 notifications you can send.
               </p>
             </div>
@@ -488,7 +517,7 @@
               <div class="feature_heading">Attach Notes</div>
               <p class="feature_body">
                 Add a note to a reservation or booking with ease.  And decide if that note should remain private (internal to your company) or 
-                public (seen by the other party)
+                public (seen by the other party).
               </p>
             </div>
             <div class="feature_box">
@@ -541,11 +570,13 @@
           </p>
         </div>
         <div class="jumbo_buttons">
-          <a
-            class="jumbo_start_trial"
-            href="https://reservedock.com/register_as_receiver"
-            >Start My Free Trial</a
-          >
+          <div onclick="gtag_report_conversion()">
+              <a
+              class="jumbo_start_trial"
+              href="https://reservedock.com/register_as_receiver"
+              >Start My Free Trial</a
+              >
+          </div>
           <a class="jumbo_watch_video" href="https://reservedock.com/video">
             <svg
               xmlns="http://www.w3.org/2000/svg"
