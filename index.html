@@ -64,7 +64,6 @@
       /></noscript>
       <!-- End Facebook Pixel Code -->
 
-
   </head>
   <body class="home">
     <div class="top_sec_wrapper">
@@ -404,7 +403,7 @@
           <div class="right">
             <div class="login"><a href="https://reservedock.com/login">Sign In</a></div>
 
-            <div class="try" onclick="gtag_report_conversion()">
+            <div class="try" onclick="gtag_report_conversion(); fbq('track', 'Subscribe');">
               <a href="https://reservedock.com/register_as_receiver">TRY IT FREE </a>
             </div>
           </div>
@@ -589,7 +588,7 @@
           </p>
         </div>
         <div class="jumbo_buttons">
-          <div onclick="gtag_report_conversion()">
+          <div onclick="gtag_report_conversion(); fbq('track', 'Subscribe');">
               <a
               class="jumbo_start_trial"
               href="https://reservedock.com/register_as_receiver"
