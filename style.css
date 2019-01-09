@@ -346,6 +346,109 @@ body {
   font-size: 0.8rem;
 }
 
+.free_demo_form {
+  background: rgb(247, 247, 246);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.free_demo_form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.free_demo_form ul {
+  padding: 0;
+}
+
+.get_demo {
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Lato';
+  color: rgb(44, 127, 153);
+}
+
+.field_list_item {
+  list-style: none;
+}
+
+.field_holder {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 15px;
+  color: #9b9b9b;
+  font-family: 'Lato';
+  margin-bottom: 2px;
+}
+
+.field {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ebebeb;
+  height: 25px;
+  font-size: 19px;
+  line-height: 19px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.sec_5 {
+  background: rgba(22, 65, 79, 0.85);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.sub_btn {
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #0a5ef2;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  font-weight: 700;
+  font-style: normal;
+  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: center;
+  font-size: 18px;
+}
+
+.sub_btn:hover {
+  background: #eec200;
+  color: #000;
+}
+
+.form_copy {
+  color: white;
+  font-size: 2.5rem;
+  width: 250px;
+  text-align: right;
+  margin-right: 21px;
+  line-height: 0.96;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.form_copy .np {
+  opacity: 0.75;
+  font-size: 1.1875rem;
+  line-height: 1.42;
+  font-family: Roboto;
+  font-weight: normal;
+}
+
 @media only screen and (max-device-width: 1024px) {
   .jumbo_headline h1 {
     font-size: 3.5rem;
