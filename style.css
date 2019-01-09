@@ -674,4 +674,19 @@ body {
     font-size: 0.7rem;
     text-align: center;
   }
+
+  .sec_5 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form_copy {
+    width: unset;
+    text-align: center;
+    margin-right: unset;
+    line-height: 0.96;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
 }
